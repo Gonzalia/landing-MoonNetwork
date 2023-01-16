@@ -52,6 +52,7 @@ body{
     display: flex;
     flex-direction: column;
     letter-spacing: 7px;
+    margin-right: 8rem;
 
 }
 
@@ -230,8 +231,33 @@ body{
 
 @media (max-width: 600px) { /* Responsive card */
     .update-card {
-      margin-left: 0;
+      margin: 10px auto;
+      width: 20rem;
     }
+
+    .header-page{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        background-size: 150%;
+    }
+    .title{
+        margin-bottom: 10px;
+    }
+
+    .header-page img{
+        width: 45px;
+        height: 45px;
+    }
+
+    .ip{
+        align-items: center;
+    }
+
+    
+
+   
   }
 
 .header-image{
