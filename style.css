@@ -20,6 +20,8 @@ body{
     position: relative;
 }
 
+
+
 /* HEADER */
 
 .header-page{
@@ -312,4 +314,15 @@ footer{
     color: rgb(90, 255, 219);
     transition: 1s;
     
+}
+
+
+.description-card::-webkit-scrollbar, body::-webkit-scrollbar{
+    width: 7px;
+    background-color: black;
+}
+
+.description-card::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb{
+    background-color: grey;
+    border-radius: 5px;
 }
