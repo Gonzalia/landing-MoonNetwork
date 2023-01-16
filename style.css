@@ -1,0 +1,315 @@
+/* URLS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://wallpaperaccess.com/full/2915359.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center top;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+}
+
+/* HEADER */
+
+.header-page{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-image: url(https://wallpaperaccess.com/full/1145374.jpg);
+    background-size: 100%;
+}
+
+.header-page p{
+    font-family: 'Sofia Sans', sans-serif;
+    color: white;
+}
+
+
+.header-page img:hover{
+    transform: scale(1.1);
+    transition: .9s;
+}
+
+.header-page h1, h2{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 10px;
+
+    margin-right: 100px;
+
+}
+
+.title h1{
+    position: relative;
+    font-size: 40px;
+    color: white;
+}
+
+.title h2{
+    font-size: 18px;
+    margin-left: -3px;
+    color: rgb(233, 233, 233);
+}
+
+
+.logo{
+    height: 75px;
+    width: 75px;
+}
+
+
+/* IP style */
+.ip{
+    position: relative;
+    padding: 15px 30px;
+    letter-spacing: 2px;
+    
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.ip:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 1s;
+}
+
+.ip span{
+    position: absolute;
+    display: block;
+}
+.span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,#02ac927c);
+ }
+
+.ip:hover .span1{
+    left: 100%;
+    transition: 1s;
+}
+
+.span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,#45c7b3);
+}
+
+.ip:hover .span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#a945c7);
+}
+
+.ip:hover .span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#a945c7);
+}
+
+.ip:hover .span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+/* END HEADER */
+
+
+/* Link section */
+
+.links-section{
+    margin-top: 5em;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.links-section a{
+    
+        
+    background-image: url(https://i.pinimg.com/originals/41/78/c1/4178c126edac36deed9c8ecba2447443.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+  
+
+    padding: 4rem 6rem 4rem 6rem;
+    border-radius: 3%;
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    border: 1px solid rgb(47, 50, 71);
+}
+
+
+.links-section a:hover{
+    cursor: grab;
+    transform: scale(1.1);
+    
+    
+    background-image: url(https://images.hdqwalls.com/wallpapers/minecraft-night-in-the-woods-4k-jq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    /*background-color: rgb(78, 0, 138);*/
+    transition: .8s;
+    box-shadow: 0 0 10px #7f36a6, 0 0 40px #3636a6, 0 0 80px #3636a6;
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+
+
+
+
+/* CARDS SECTION */
+.cards{
+    margin-top: 5em;
+    display: flex;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+
+    top: 0;
+}
+.update-card{
+    margin: auto auto 10px auto;
+    display: flex;
+    width: 35rem;
+  
+    flex-direction: column;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5%;
+
+    background-color: rgb(22, 22, 22);
+
+}
+
+.header-image{
+    width: 100%;
+    height: 100%;
+
+    border-top-left-radius: 7.5%;
+    border-top-right-radius: 7.5%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-card h1{
+    color: white;
+    margin: 0px auto;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+.description-card{
+    color: white;
+    margin-left: 10px;
+    
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 17px;
+
+    height: 10rem;
+    overflow-y: auto;
+
+}
+
+.mode{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.mode p{
+    margin-left: 5px;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+.head-skin{
+    width: 15px;
+    height: 15px;
+}
+
+.fecha{
+    margin-left: 80%;
+    color: white;
+}
+
+
+footer{
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    padding: 10px;
+    font-family: 'Sofia Sans', sans-serif;
+
+    position: sticky;
+    
+}
+
+.copy{
+    margin-left: 5px;
+}
+
+.github{
+    margin-right: 5px;
+}
+
+.github a{
+    text-decoration: none;
+    color: rgb(0, 96, 99);
+}
+
+.github a:hover{
+    color: rgb(90, 255, 219);
+    transition: 1s;
+    
+}
