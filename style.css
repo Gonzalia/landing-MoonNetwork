@@ -265,8 +265,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     color: white;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin: 10px 10px 10px 10px;
 
 }
 
