@@ -217,7 +217,8 @@ body{
     top: 0;
 }
 .update-card{
-    margin: auto auto 10px auto;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
     display: flex;
     width: 35rem;
   
@@ -262,12 +263,17 @@ body{
 .mode{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     color: white;
     margin-top: 10px;
     margin-left: 10px;
 
 }
 
+.imagen-nombre{
+    display: flex;
+    margin-left: 20px;
+}
 .mode p{
     margin-left: 5px;
     font-family: 'Sofia Sans', sans-serif;
@@ -279,7 +285,7 @@ body{
 }
 
 .fecha{
-    margin-left: 80%;
+    margin-right: 20px;
     color: white;
 }
 
@@ -307,11 +313,11 @@ footer{
 
 .github a{
     text-decoration: none;
-    color: rgb(0, 96, 99);
+    color: rgb(63, 205, 210);
 }
 
 .github a:hover{
-    color: rgb(90, 255, 219);
+    color: rgb(243, 107, 255);
     transition: 1s;
     
 }
@@ -319,10 +325,10 @@ footer{
 
 .description-card::-webkit-scrollbar, body::-webkit-scrollbar{
     width: 7px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .description-card::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb{
-    background-color: grey;
+    background-color: rgb(69, 69, 69);
     border-radius: 5px;
 }
