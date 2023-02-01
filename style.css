@@ -212,6 +212,7 @@ body{
     display: flex;
     margin-bottom: 10px;
     flex-wrap: wrap;
+    justify-content: center;
 
     top: 0;
 }
@@ -219,7 +220,7 @@ body{
     margin-left: 5em;
     margin-bottom: 5rem;
     display: flex;
-    width: 35rem;
+    width: 30rem;
   
     flex-direction: column;
     border: 1px solid rgb(255, 255, 255);
